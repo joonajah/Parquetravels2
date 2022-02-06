@@ -125,7 +125,7 @@ a {
 .footer {
   color: #2d2e3b;
   background-color: #2d2e3b;
-  height: 600px;
+  height: 100px;
 }
 
 @media (max-width: 575.98px) {
