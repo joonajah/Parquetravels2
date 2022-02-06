@@ -51,6 +51,9 @@ body {
   text-align: center;
 }
 
+.bodyclass{
+    padding-top: 150px;
+}
 .description h1 {
   color: #ffffff;
 }
@@ -123,9 +126,10 @@ a {
   margin-bottom: 16px;
 }
 .footer {
+  padding: 0.03px;
   color: #2d2e3b;
   background-color: #2d2e3b;
-  height: 300px;
+  height: 250px;
 }
 
 @media (max-width: 575.98px) {
