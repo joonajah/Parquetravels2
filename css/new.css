@@ -52,7 +52,7 @@ body {
 }
 
 .bodyclass{
-    padding-top: 150px;
+    padding-top: 100px;
 }
 .description h1 {
   color: #ffffff;
@@ -129,7 +129,7 @@ a {
   padding: 0.03px;
   color: #2d2e3b;
   background-color: #2d2e3b;
-  height: 250px;
+  height: 290px;
 }
 
 @media (max-width: 575.98px) {
