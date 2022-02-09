@@ -7,8 +7,17 @@ body {
 }
 /*--- navigation bar ---*/
 .navbar {
+
   background: #3d9eee;
   
+
+  background: #2d2e3b;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  padding: 80;
+
 }
 .nav-link,
 .navbar-brand {
@@ -56,6 +65,9 @@ body {
   text-align: center;
 }
 
+.bodyclass{
+    padding-top: 100px;
+}
 .description h1 {
   color: #ffffff;
 }
@@ -138,6 +150,7 @@ a {
   margin-bottom: 16px;
 }
 .footer {
+
   color: #3d9eee;
   background-color: #3d9eee;
   height: 300px;
@@ -149,6 +162,12 @@ a {
   text-align: center;
   padding:50px;
   font-family: "Courier New", Courier, monospace;
+
+  padding: 0.03px;
+  color: #2d2e3b;
+  background-color: #2d2e3b;
+  height: 290px;
+
 }
 @media (max-width: 575.98px) {
   .description {
