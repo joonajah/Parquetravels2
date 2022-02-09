@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/new.css">
 </head>
 <body>
+  <div class="wrapper">
          <!-- navbar -->
   <nav class="navbar navbar-expand-md">
     <div class="logo-image">
@@ -45,8 +46,18 @@
     </div>
   </nav>
 <!-- navbar -->
+
+<header class="page-header header container-fluid">
+  <div class="overlay"></div>
+<div class="dest">
+  <h1><u>Reservation</u></h1>
+</div>
+
+<div class="container features" style="background-color: #3d9eee;">
+
 <div class="bodyclass">
 <div class="container features" style="background-color: #afbbff;">
+
     <div class="row">
       
       <div class="col-lg-6 col-md-6 col-sm-6">
@@ -92,9 +103,9 @@
             <h6 class="form-title">Select the city</h6>
             <select name="Finland" class="custom-select custom-select-lg mb-3">  
             <option>City</option>   
-            <option value="Forssa" >Forssa</option>       
-            <option value="Hervanta">Hervanta</option>
-            <option value="Korso">Korso</option>
+            <option value="Rovaniemi" >Rovaniemi</option>       
+            <option value="Helsinki">Helsinki</option>
+            <option value="Tampere">Tampere</option>
             </select>
             </div>
          
@@ -107,7 +118,9 @@
           </div>
           <div class="custom-control custom-radio">
             <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+            <div class="label">
             <label class="custom-control-label" for="customRadio2">7 days relaxing vacation.</label>
+          </div>
           </div>
          </div>
       <div class="col-lg-6 col-md-6 col-sm-6"> 
@@ -115,40 +128,48 @@
         <form>
             <div class="form-row">
                 <div class="col">
-                    <label for="inputFName">First name</label>
+                  
+                    <label class="form_label" for="inputFName">First name</label>
+                  
                   <input type="text" class="form-control" id="inputFName" placeholder="First name">
                 </div>
                 <div class="col">
-                    <label for="inputLName">Last name</label>
+                 
+                    <label class="form_label" for="inputLName">Last name</label>
+                    
                   <input type="text" class="form-control" id="inputLName" placeholder="Last name">
                 </div>
               </div>
             
             <div class="form-group">
-              <label for="inputAddress">Address</label>
+              <label class="form_label" for="inputAddress">Address</label>
               <input type="text" class="form-control" id="inputAddress" placeholder="Pääkatu 15">
             </div>
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="inputCity">City</label>
+                <label class="form_label" for="inputCity">City</label>
                 <input type="text" class="form-control" id="inputCity" placeholder="Tampere">
               </div>
               <div class="form-group col-md-2">
-                <label for="inputZip">Zip</label>
+                <label class="form_label" for="inputZip">Zip</label>
                 <input type="text" class="form-control" id="inputZip" placeholder="33101">
               </div>
             </div>
             <div class="form-row">
                 <div class="form-group col-md-6">
-                  <label for="inputEmail4">Email</label>
+                  <label class="form_label" for="inputEmail4">Email</label>
                   <input type="email" class="form-control" id="inputEmail4" placeholder="example@example.com">
                 </div>
               </div>
-            <button type="submit" class="btn btn-primary" style="background-color: #2d2e3b;">Submit</button>
+            <button type="submit" class="btn btn-primary" style="background-color: #1382dd;">Submit</button>
           </form>
       </div>
     </div> 
   </div>
+
+  </header>  
+=======
+
 </div>
 <!-- Footer -->
 <div id="footer"></div>

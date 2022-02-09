@@ -1,17 +1,23 @@
 body {
   padding: 0;
   margin: 0;
-  background: #a7a7a7;
+  background: #f3f3f3;
   font-family: "Courier New", Courier, monospace;
+  
 }
 /*--- navigation bar ---*/
 .navbar {
+
+  background: #3d9eee;
+  
+
   background: #2d2e3b;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 99;
   padding: 80;
+
 }
 .nav-link,
 .navbar-brand {
@@ -21,27 +27,35 @@ body {
 .nav-link {
   margin-right: 6em !important;
   font-size: larger;
+  align-content: center;
 }
 .navbar-brand:hover,
 .nav-link:hover {
   color: #000;
 }
 .navbar-collapse {
-  justify-content: flex-end;
+  justify-content:center;
 }
 .header {
   background-image: url(../images/laiduri.jpg);
   background-size: cover;
+  background-repeat:no-repeat;
   background-position: center;
-  position: relative;
+  position:static;
+  min-height:max-content;
+  
+}
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -100px;
 }
 .overlay {
   position: absolute;
   min-height: 100%;
-  min-width: 100%;
+  
   left: 0;
   top: 0;
-  background: rgba(0, 16, 107, 0.349);
+  
 }
 .description {
   left: 50%;
@@ -57,6 +71,9 @@ body {
 .description h1 {
   color: #ffffff;
 }
+.btn-primary {
+  border-color: #fff;
+}
 
 .description p {
   color: #fff;
@@ -64,8 +81,8 @@ body {
   line-height: 1.5;
 }
 .description button {
-  border: 1px solid #2d2e3b;
-  background: #2d2e3b;
+  border: 1px solid #3d9eee;
+  background: #3d9eee;
   border-radius: 0;
   color: #fff;
 }
@@ -89,7 +106,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
-  background-color: #2d2e3b;
+  background-color: #3d9eee;
 }
 
 /*---Styling for footer links---*/
@@ -108,16 +125,23 @@ a {
   font-size: 1rem;
   font-weight: 700;
   margin-bottom: 20px;
+  background-color: #3d9eee;
 
   text-align: center;
   font-family: "Courier New", Courier, monospace;
 }
 .form-title {
-  color: #333;
+  color: rgb(255, 255, 255);
   font-size: 1.3rem;
   font-weight: 700;
   margin-bottom: 20px;
   text-transform: uppercase;
+}
+.custom-control-label {
+  color:rgb(255, 255, 255);
+}
+.form_label {
+  color:rgb(255, 255, 255);
 }
 .features img {
   -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
@@ -126,12 +150,25 @@ a {
   margin-bottom: 16px;
 }
 .footer {
+
+  color: #3d9eee;
+  background-color: #3d9eee;
+  height: 300px;
+  position:sticky;
+  
+}
+.dest {
+  color:#000;
+  text-align: center;
+  padding:50px;
+  font-family: "Courier New", Courier, monospace;
+
   padding: 0.03px;
   color: #2d2e3b;
   background-color: #2d2e3b;
   height: 290px;
-}
 
+}
 @media (max-width: 575.98px) {
   .description {
     left: 0;
@@ -152,10 +189,17 @@ a {
 
   .features {
     margin: 0;
-    background-color: #2d2e3b;
+    background-color: #3d9eee;
   }
   html {
     scroll-behavior: smooth;
+    height: 100%;
+    
+    background: url(../images/laiduri.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+   background-size: cover;
   }
 
   .logo-image {
