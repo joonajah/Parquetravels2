@@ -9,9 +9,6 @@ body {
 .navbar {
 
   background: #3d9eee;
-  
-
-  background: #2d2e3b;
   position: fixed;
   top: 0;
   width: 100%;
@@ -42,9 +39,13 @@ body {
   background-repeat:no-repeat;
   background-position: center;
   position:static;
-  min-height:max-content;
+
+}  
+.single-box {
+  background-color: #3d9eeeab;
+}  
   
-}
+
 .wrapper {
   min-height: 100%;
   margin-bottom: -100px;
@@ -52,7 +53,6 @@ body {
 .overlay {
   position: absolute;
   min-height: 100%;
-  
   left: 0;
   top: 0;
   
@@ -66,7 +66,7 @@ body {
 }
 
 .bodyclass{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .description h1 {
   color: #ffffff;
@@ -156,17 +156,17 @@ a {
   height: 300px;
   position:sticky;
   
+  
 }
 .dest {
   color:#000;
   text-align: center;
-  padding:50px;
+  padding-top: 100px;
   font-family: "Courier New", Courier, monospace;
-
-  padding: 0.03px;
+  
   color: #2d2e3b;
-  background-color: #2d2e3b;
-  height: 290px;
+  
+  
 
 }
 @media (max-width: 575.98px) {
